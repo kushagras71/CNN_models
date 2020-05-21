@@ -141,9 +141,9 @@ print('Loss: ',model.evaluate_generator(test_image_gen)[0],
 # =============================================================================
 
 
-test_img = (# Enter the correct path for the new image you are using for the predict )
+test_img = (# Enter the correct path of the new image that will be used for making predictions )
             # In my case a random image of the daisy flower from test set was picked.
-            # Note: We know that image is of a daisy flower but the model doesn't know.
+            # Note: We know that the image is of a daisy flower but the model doesn't know.
             # Lets check it. 
 plt.imshow(imread(test_img))  # Displaying the new image
 
@@ -162,7 +162,8 @@ probabilities = model.predict(new_img_array)  #predicting the probabilites of th
 print(list(train_image_gen.class_indices)[0],":",probabilities[0][0],'\n',
       list(train_image_gen.class_indices)[1],":",probabilities[0][1],'\n',
       list(train_image_gen.class_indices)[2],":",probabilities[0][2],'\n',
-      list(train_image_gen.class_indices)[3],":",probabilities[0][3])
+      list(train_image_gen.class_indices)[3],":",probabilities[0][3],'\n',
+      list(train_image_gen.class_indices)[4],":",probabilities[0][4])
 
 
 ##### The model predicts the highest probabilty for the class 'daisy'###########
