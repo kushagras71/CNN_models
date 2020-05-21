@@ -166,7 +166,7 @@ print(list(train_image_gen.class_indices)[0],":",probabilities[0][0],'\n',
 
 
 ##### The model predicts the highest probabilty for the class 'daisy'###########
-########## Kindly check the Read me file for the snap shot of the probabilites## 
+########## Please check the Read me file for the snap shot of the probabilites## 
 
 
 
