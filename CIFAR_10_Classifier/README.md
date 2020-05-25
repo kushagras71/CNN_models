@@ -7,3 +7,4 @@ working with  3-color channel scheme (RGB) images.
  
 The classes and sample images of CIFAR 10 dataset are as follow:
 
+![](cifar_10_classes.png)
