@@ -2,7 +2,7 @@ Flower Classifier using CNN
 ==================================================================
 
 The Flower_Classifer.py file is a python code used for builing and training a CNN model
-for classifying different flower images into 5 classes that are as follows:
+for classifying different flower images into 5 classes that are as follows:  
 
 Daisy - '0'
 
